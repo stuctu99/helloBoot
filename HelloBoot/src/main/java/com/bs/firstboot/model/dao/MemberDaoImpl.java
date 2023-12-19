@@ -18,25 +18,25 @@ public class MemberDaoImpl implements MemberDao {
 	@Override
 	public Member selectMemberById(SqlSession session, String id) {
 		// TODO Auto-generated method stub
-		return null;
+		return session.selectOne("member.selectMemberById",id);
 	}
 
 	@Override
 	public int insertMember(SqlSession session, Member m) {
 		// TODO Auto-generated method stub
-		return 0;
+		return session.insert("member.insertMember",m);
 	}
 
 	@Override
 	public int updateMember(SqlSession session, Member m) {
 		// TODO Auto-generated method stub
-		return 0;
+		return session.update("member.updateMember",m);
 	}
 
 	@Override
 	public int deleteMember(SqlSession session, String userId) {
 		// TODO Auto-generated method stub
-		return 0;
+		return session.delete("member.deleteMember",userId);
 	}
 
 }

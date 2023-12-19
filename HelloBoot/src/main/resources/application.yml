@@ -1,0 +1,36 @@
+server: 
+  port: 9090
+#server.port=9090
+
+#spring.datasource.driver-class-name
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@14.36.141.71:10001:xe
+    username: spring
+    password: spring
+#spring.mvc.view.prefix/suffix    
+  mvc:
+    view: 
+      prefix: /WEB-INF/views/
+      suffix: .jsp 
+
+#mybatis:
+#  mapper-locations: classpath:mappers/**/*.xml
+#  config-location: classpath:config/mybatis-config.xml
+  
+logging:
+  level:
+    '[com.bs.firstboot]': debug
+    
+#사용자가 지정한 내용
+linux:
+  home: /home/goodee
+  url: 14.36.141.71:1234
+  
+#환경변수의 값을 불러와 저장
+window:
+  javahome: ${JAVA_HOME}
+  
+
+        
