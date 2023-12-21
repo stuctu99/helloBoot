@@ -32,7 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 
-Script/
+Scripts/
 .dbeaver/
 src/main/resources/
 
