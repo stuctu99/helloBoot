@@ -1,0 +1,143 @@
+2023-12-21T09:28:12.317+09:00  INFO 2004 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Starting HelloBootApplication using Java 17.0.7 with PID 2004 (C:\Users\goodee\git\repository\HelloBoot\target\classes started by goodee in C:\Users\goodee\git\repository\HelloBoot)
+2023-12-21T09:28:12.317+09:00 DEBUG 2004 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Running with Spring Boot v3.2.0, Spring v6.1.1
+2023-12-21T09:28:12.317+09:00  INFO 2004 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T09:28:12.411+09:00  INFO 2004 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-12-21T09:28:12.413+09:00  INFO 2004 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2023-12-21T09:28:12.456+09:00  INFO 2004 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2023-12-21T09:28:12.457+09:00  INFO 2004 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-21T09:28:12.457+09:00  INFO 2004 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-21T09:28:12.500+09:00  INFO 2004 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-12-21T09:28:12.502+09:00  INFO 2004 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-21T09:28:12.502+09:00  INFO 2004 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 183 ms
+2023-12-21T09:28:12.533+09:00  INFO 2004 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-12-21T09:28:12.569+09:00  INFO 2004 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2023-12-21T09:28:12.616+09:00  INFO 2004 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection oracle.jdbc.driver.T4CConnection@36f50d0e
+2023-12-21T09:28:12.616+09:00  INFO 2004 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2023-12-21T09:28:12.625+09:00  INFO 2004 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-21T09:28:12.633+09:00  INFO 2004 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2023-12-21T09:28:12.637+09:00  INFO 2004 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Started HelloBootApplication in 0.346 seconds (process running for 963.541)
+2023-12-21T09:28:12.638+09:00  INFO 2004 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-21T09:29:04.856+09:00  INFO 2004 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 14 class path changes (0 additions, 0 deletions, 14 modifications)
+2023-12-21T09:29:04.863+09:00  INFO 2004 --- [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2023-12-21T09:29:04.894+09:00  INFO 2004 --- [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2023-12-21T09:29:04.943+09:00  INFO 2004 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Starting HelloBootApplication using Java 17.0.7 with PID 2004 (C:\Users\goodee\git\repository\HelloBoot\target\classes started by goodee in C:\Users\goodee\git\repository\HelloBoot)
+2023-12-21T09:29:04.943+09:00 DEBUG 2004 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Running with Spring Boot v3.2.0, Spring v6.1.1
+2023-12-21T09:29:04.944+09:00  INFO 2004 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T09:29:05.052+09:00  INFO 2004 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-12-21T09:29:05.055+09:00  INFO 2004 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2023-12-21T09:29:05.097+09:00  INFO 2004 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2023-12-21T09:29:05.097+09:00  INFO 2004 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-21T09:29:05.098+09:00  INFO 2004 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-21T09:29:05.143+09:00  INFO 2004 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-12-21T09:29:05.145+09:00  INFO 2004 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-21T09:29:05.145+09:00  INFO 2004 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 200 ms
+2023-12-21T09:29:05.177+09:00  INFO 2004 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-12-21T09:29:05.222+09:00  INFO 2004 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2023-12-21T09:29:05.262+09:00  INFO 2004 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection oracle.jdbc.driver.T4CConnection@44b24146
+2023-12-21T09:29:05.262+09:00  INFO 2004 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2023-12-21T09:29:05.274+09:00  INFO 2004 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-21T09:29:05.282+09:00  INFO 2004 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2023-12-21T09:29:05.286+09:00  INFO 2004 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Started HelloBootApplication in 0.36 seconds (process running for 1016.191)
+2023-12-21T09:29:05.288+09:00  INFO 2004 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-21T09:29:39.212+09:00  INFO 2004 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-21T09:29:39.212+09:00  INFO 2004 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-21T09:29:39.213+09:00  INFO 2004 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-21T09:29:39.213+09:00 DEBUG 2004 --- [http-nio-9090-exec-1] c.bs.firstboot.common.LoggerInterceptor  : ========================= interceptor ========================
+2023-12-21T09:29:39.213+09:00 DEBUG 2004 --- [http-nio-9090-exec-1] c.bs.firstboot.common.LoggerInterceptor  : /
+2023-12-21T09:29:39.213+09:00 DEBUG 2004 --- [http-nio-9090-exec-1] c.bs.firstboot.common.LoggerInterceptor  : =================================================================
+2023-12-21T09:29:43.336+09:00 DEBUG 2004 --- [http-nio-9090-exec-2] c.bs.firstboot.common.LoggerInterceptor  : ========================= interceptor ========================
+2023-12-21T09:29:43.336+09:00 DEBUG 2004 --- [http-nio-9090-exec-2] c.bs.firstboot.common.LoggerInterceptor  : /fileupload
+2023-12-21T09:29:43.336+09:00 DEBUG 2004 --- [http-nio-9090-exec-2] c.bs.firstboot.common.LoggerInterceptor  : =================================================================
+2023-12-21T09:29:43.337+09:00 ERROR 2004 --- [http-nio-9090-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot read the array length because "upFile" is null] with root cause
+
+java.lang.NullPointerException: Cannot read the array length because "upFile" is null
+	at com.bs.firstboot.controller.ViewTestController.fileupload(ViewTestController.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.16.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.16.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-12-21T09:29:43.338+09:00 DEBUG 2004 --- [http-nio-9090-exec-2] c.bs.firstboot.common.LoggerInterceptor  : ========================= interceptor ========================
+2023-12-21T09:29:43.339+09:00 DEBUG 2004 --- [http-nio-9090-exec-2] c.bs.firstboot.common.LoggerInterceptor  : /error
+2023-12-21T09:29:43.339+09:00 DEBUG 2004 --- [http-nio-9090-exec-2] c.bs.firstboot.common.LoggerInterceptor  : =================================================================
+2023-12-21T09:30:36.559+09:00 DEBUG 2004 --- [http-nio-9090-exec-3] c.bs.firstboot.common.LoggerInterceptor  : ========================= interceptor ========================
+2023-12-21T09:30:36.560+09:00 DEBUG 2004 --- [http-nio-9090-exec-3] c.bs.firstboot.common.LoggerInterceptor  : /
+2023-12-21T09:30:36.560+09:00 DEBUG 2004 --- [http-nio-9090-exec-3] c.bs.firstboot.common.LoggerInterceptor  : =================================================================
+2023-12-21T09:30:40.584+09:00 DEBUG 2004 --- [http-nio-9090-exec-4] c.bs.firstboot.common.LoggerInterceptor  : ========================= interceptor ========================
+2023-12-21T09:30:40.584+09:00 DEBUG 2004 --- [http-nio-9090-exec-4] c.bs.firstboot.common.LoggerInterceptor  : /fileupload
+2023-12-21T09:30:40.584+09:00 DEBUG 2004 --- [http-nio-9090-exec-4] c.bs.firstboot.common.LoggerInterceptor  : =================================================================
+2023-12-21T09:30:40.587+09:00 DEBUG 2004 --- [http-nio-9090-exec-4] c.b.f.controller.ViewTestController      : style.css
+2023-12-21T09:30:40.587+09:00 DEBUG 2004 --- [http-nio-9090-exec-4] c.b.f.controller.ViewTestController      : 크기 : 664
+2023-12-21T09:30:40.587+09:00 DEBUG 2004 --- [http-nio-9090-exec-4] c.b.f.controller.ViewTestController      : 
+2023-12-21T09:30:40.587+09:00 DEBUG 2004 --- [http-nio-9090-exec-4] c.b.f.controller.ViewTestController      : 크기 : 0
+2023-12-21T09:30:40.587+09:00 DEBUG 2004 --- [http-nio-9090-exec-4] c.b.f.controller.ViewTestController      : 
+2023-12-21T09:30:40.587+09:00 DEBUG 2004 --- [http-nio-9090-exec-4] c.b.f.controller.ViewTestController      : 크기 : 0
+2023-12-21T09:30:40.587+09:00 DEBUG 2004 --- [http-nio-9090-exec-4] c.b.f.controller.ViewTestController      : 
+2023-12-21T09:30:40.587+09:00 DEBUG 2004 --- [http-nio-9090-exec-4] c.b.f.controller.ViewTestController      : 크기 : 0
+2023-12-21T09:30:40.595+09:00 DEBUG 2004 --- [http-nio-9090-exec-5] c.bs.firstboot.common.LoggerInterceptor  : ========================= interceptor ========================
+2023-12-21T09:30:40.596+09:00 DEBUG 2004 --- [http-nio-9090-exec-5] c.bs.firstboot.common.LoggerInterceptor  : /
+2023-12-21T09:30:40.596+09:00 DEBUG 2004 --- [http-nio-9090-exec-5] c.bs.firstboot.common.LoggerInterceptor  : =================================================================
+2023-12-21T09:30:45.140+09:00 DEBUG 2004 --- [http-nio-9090-exec-8] c.bs.firstboot.common.LoggerInterceptor  : ========================= interceptor ========================
+2023-12-21T09:30:45.141+09:00 DEBUG 2004 --- [http-nio-9090-exec-8] c.bs.firstboot.common.LoggerInterceptor  : /fileupload
+2023-12-21T09:30:45.141+09:00 DEBUG 2004 --- [http-nio-9090-exec-8] c.bs.firstboot.common.LoggerInterceptor  : =================================================================
+2023-12-21T09:30:45.141+09:00 DEBUG 2004 --- [http-nio-9090-exec-8] c.b.f.controller.ViewTestController      : 
+2023-12-21T09:30:45.141+09:00 DEBUG 2004 --- [http-nio-9090-exec-8] c.b.f.controller.ViewTestController      : 크기 : 0
+2023-12-21T09:30:45.141+09:00 DEBUG 2004 --- [http-nio-9090-exec-8] c.b.f.controller.ViewTestController      : jquery-3.7.0.min.js
+2023-12-21T09:30:45.141+09:00 DEBUG 2004 --- [http-nio-9090-exec-8] c.b.f.controller.ViewTestController      : 크기 : 87462
+2023-12-21T09:30:45.141+09:00 DEBUG 2004 --- [http-nio-9090-exec-8] c.b.f.controller.ViewTestController      : 
+2023-12-21T09:30:45.141+09:00 DEBUG 2004 --- [http-nio-9090-exec-8] c.b.f.controller.ViewTestController      : 크기 : 0
+2023-12-21T09:30:45.141+09:00 DEBUG 2004 --- [http-nio-9090-exec-8] c.b.f.controller.ViewTestController      : 
+2023-12-21T09:30:45.141+09:00 DEBUG 2004 --- [http-nio-9090-exec-8] c.b.f.controller.ViewTestController      : 크기 : 0
+2023-12-21T09:30:45.146+09:00 DEBUG 2004 --- [http-nio-9090-exec-9] c.bs.firstboot.common.LoggerInterceptor  : ========================= interceptor ========================
+2023-12-21T09:30:45.146+09:00 DEBUG 2004 --- [http-nio-9090-exec-9] c.bs.firstboot.common.LoggerInterceptor  : /
+2023-12-21T09:30:45.146+09:00 DEBUG 2004 --- [http-nio-9090-exec-9] c.bs.firstboot.common.LoggerInterceptor  : =================================================================
+2023-12-21T09:35:41.845+09:00  INFO 2004 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-12-21T09:35:41.855+09:00  INFO 2004 --- [Thread-49] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2023-12-21T09:35:51.868+09:00  WARN 2004 --- [Thread-49] com.zaxxer.hikari.pool.HikariPool        : Timed-out waiting for close connection executor to shutdown
+2023-12-21T09:35:51.868+09:00  INFO 2004 --- [Thread-49] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.

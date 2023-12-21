@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,6 +24,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor
 @RestController //@Controller + @ResponseBody
 @RequestMapping("/members")
+//@CrossOrigin(origins = "외부주소값") //(cors) 이 컨트롤러에 있는 애들은 origin이 달라도 허용
 public class MemberController {
 	
 	private final MemberService service;

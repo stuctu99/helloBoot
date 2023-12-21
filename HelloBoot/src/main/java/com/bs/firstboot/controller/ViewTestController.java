@@ -4,8 +4,13 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
+
+import com.bs.firstboot.model.dto.Member;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -31,10 +36,40 @@ public class ViewTestController {
 		return List.of(homeDir,url, path);
 	}
 	
-//	@GetMapping("/")
-//	public String index() {
-//		return "index";
-//	}
+	@PostMapping("/fileupload")
+	public String fileupload(MultipartFile[] upFile) {
+		for(MultipartFile f : upFile) {
+			log.debug(f.getOriginalFilename());
+			log.debug("크기 : {}", f.getSize());
+		}
+		return "redirect:/";
+		
+	}
+	
+	@GetMapping("/")
+	public String index(Model model) {
+		model.addAttribute("name","bobolove");
+		
+		Member m = Member.builder()
+				.name("장세영")
+				.age(28)
+				.address("경기도 광명시")
+				.gender("M")
+				.build();
+		List<String> team = List.of("김선진","서진","박대웅","박승현");
+		
+		model.addAttribute("team",team);
+		model.addAttribute("member",m);
+		
+		
+		return "index";
+	}
+	
+	@GetMapping("/test")
+	public String test() {
+		return "user/test";
+	}
+	
 //	
 //	@GetMapping("/board/boardList")
 //	public String boardmain() {
